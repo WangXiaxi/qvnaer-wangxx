@@ -1,0 +1,421 @@
+.clearfloat
+	clear both
+.Nav.fixed
+	position fixed
+	top 60px
+.Nav
+	position absolute
+	z-index 10
+	right 10px
+	top 540px
+	width 116px
+	padding-top 56px
+	font-family 'Microsoft Yahei'
+	& .topImg
+		position absolute
+		left 0
+		top 0
+		height 120px
+		width 116px
+		background: url("https://s.qunarzz.com/package_tuan/2016/20160622/pc/sprite2.png") no-repeat 0 0;
+	& .Nav-cho
+		padding 65px 10px 0
+		background #8839f2
+		& a
+			display block
+			border-bottom 1px solid #9550e7
+			text-align center
+			padding 6px 0
+			font-size 14px
+			line-height 20px
+			color #fff
+	& .gotop
+		display block
+		line-height 52px
+		border-radius 0 0 60px 60px
+		background #7939cf
+		color #fff
+		font-size 0
+		text-align center	
+		& span 
+			font-size 20px
+			font-weight bold
+		& i
+			display inline-block
+			height 0
+			width 0
+			overflow hidden
+			border-bottom 8px solid #fff
+			border-left 6px dashed transparent
+			border-right 6px dashed transparent
+			margin-left 5px	
+			margin-top -8px
+			vertical-align middle
+	& a:hover
+			color #fdff44
+	& a:hover i
+			border-bottom-color #fdff44		
+
+.outTop
+	width 100%
+	height 60px
+	background #28221d
+	& .top
+		width 980px
+		margin auto
+		color #fff
+		& a
+			display block
+			display inline-block
+			padding 0 16px
+			line-height 26px
+			color #fff
+			border 2px solid #fff 
+			border-radius 15px
+			font-size 16px
+			margin-top 15px
+		& a:hover
+			border-color #fee648
+			color #fee648
+		& .top-icon
+			position relative
+			width 70px
+			float left
+			padding 10px 0 10px 0
+			& i.icon-ic
+				width 22px
+				height 40px
+				float left
+				background url(../src/top-icon.jpg)
+				background-repeat no-repeat
+				background-position 0px 7px
+			& .icon-text
+				float left
+				display inline-block
+				width 42px
+				text-align center
+				font-size 18px
+				line-height 20px
+				font-weight bold
+				color #fe0
+.outWrap
+	width 100%
+	height 581px
+	background #3dac67
+	overflow hidden
+	position relative
+	min-width 980px
+	& .wrap1
+		position absolute
+		top 0
+		left 50%
+		width 1920px
+		margin-left -960px
+		& img
+			float left
+			width 1920px
+			height 115px
+	& .wrap2
+		width 980px	
+		bottom 0
+		text-align center
+		margin 0 auto
+		position relative
+		top 315px
+		& a.imdi
+			display block
+			width 234px
+			line-height 38px
+			height 56px
+			background #fae90b
+			color #e7153a
+			border-color #1e1c6f
+			border-style solid
+			border-width 2px 2px 4px 2px
+			border-radius 20px
+			text-align center
+			font-size 30px
+			line-height 50px
+			margin auto
+			position relative
+			left -5px
+			& span
+				font-weight bold
+			& i.icon1
+				display inline-block
+				width 21px
+				height 32px
+				background red
+				position relative
+				top 6px
+				left -6px
+				background-image url(../src/11.jpg)
+				animation moreMove 1s linear both infinite
+				@keyframes moreMove
+					100%
+						left 0px
+		& .mInlet
+			width 1000px
+			& a
+				margin 67px 0 20px
+				display block
+				width 188px
+				height 123px
+				margin-right 10px
+				float left
+				background-repeat no-repeat
+				background-position 50% 50%
+				padding 12px 10px 0
+				text-align left
+				line-height 28px
+				color #fff
+				& span
+					display block
+					overflow hidden
+				& span.t
+					font-size: 24px;
+					font-weight: bold;
+				& span.c
+					font-size: 14px;
+			& .intem1
+				background-image url("https://s.qunarzz.com/package_tuan/2016/20160622/pc/go_01.jpg")
+			& .intem2
+				background-image url("https://s.qunarzz.com/package_tuan/2016/20160622/pc/go_02.jpg")
+			& .intem3
+				background-image url("https://s.qunarzz.com/package_tuan/2016/20160622/pc/go_03.jpg")
+			& .intem4
+				background-image url("https://s.qunarzz.com/package_tuan/2016/20160622/pc/go_04.jpg")
+			& .intem5
+				background-image url("https://s.qunarzz.com/package_tuan/2016/20160622/pc/go_05.jpg")	
+
+.Mian
+	width 100%
+	background #815ad8
+	& .In
+		width 980px
+		margin auto
+		& .Tit
+			font-family sans-serif
+			padding-top 93px 
+			height 186px
+			background-image url("https://s.qunarzz.com/package_tuan/2016/20160622/pc/tit_08.jpg")
+			background-position 0 93px
+			background-repeat no-repeat
+			& .title1
+				display block
+				margin auto
+				text-align center
+				padding-top 12px
+				font-size 30px
+				font-weight bold
+				color #fff
+			& .title2
+				font-weight bold
+				display block
+				margin auto
+				font-size 16px
+				line-height 16px
+				color #fe0
+				margin-top 6px
+				white-space nowrap
+				text-align center
+		& .Tit2
+			height 62px
+			padding-top 10px
+			padding-left 10px
+			& .free-go
+				z-index 15
+				overflow hidden
+				width 980px
+				& a
+					display block
+					float left
+					width 478px
+					background #9369f0
+					height 52px
+					text-align center
+					line-height 50px
+					font-size 18px
+					font-weight bold
+					border 1px solid #4f1ebd
+					color #4f1ebd
+				& a.free-left
+					border-radius 8px 0 0 8px
+				& a.free-right
+					border-radius 0 8px 8px 0
+				& a.cur
+					background #4f1ebd
+					color #fe0
+			& .fixed
+				position fixed
+				top 0
+		& .Inner
+			width 100%
+			padding-top 10px
+			background #815ad8
+			& .bigUl
+				& li
+					float left
+					width 244px
+					height 286px
+					padding 10px
+					position relative
+					& a.bigA
+						display block
+						& .topImg
+							position relative
+							width 224px
+							height 149px
+							overflow hidden
+							& img
+								display block
+								width 224px
+								height 149px
+								position relative
+								transition transform .3s ease-in
+							
+							& .tag
+								position absolute
+								right 10px
+								top 10px
+								width 68px
+								height 68px
+								border-radius 50%
+								background-color #f23e4f
+								text-align center
+								line-height 20px
+								font-size 14px
+								& .tag-hd
+									padding-top 12px
+									color #fff
+								& .tag-bd
+									font-weight bold
+									color #fff06e
+						& .item-text
+							padding 10px
+							background #fff
+							font-size 14px
+							position relative
+							& .tit
+								font-size 16px
+								font-weight bold
+								line-height 24px
+								white-space nowrap
+								overflow hidden
+								text-overflow ellipsis
+							& .desc
+								white-space nowrap
+								overflow hidden
+								text-overflow ellipsis
+								line-height 21px
+							& .price
+								padding-top 12px
+								color #ff3939
+								position relative
+								& i.yen
+									display inline
+									font-size 16px
+								& .num
+									font-size 24px
+								& .del
+									padding-top 2px
+									color #666
+									text-decoration line-through
+								& .pr-btn
+									position absolute
+									right 0
+									bottom 0
+									width 80px
+									line-height 40px
+									text-align center
+									background-color #ff3939
+									color #fff
+									font-size 16px
+									border-radius 5px
+	
+		& .m-more
+			padding 16px 0 36px
+			position relative
+			text-align center
+			&>i
+				position absolute
+				top 32px
+				width 412px
+				height 1px
+				background-color rgba(0,0,0,0.5)
+			& .line-l
+				left 12px
+			& .line-r
+				right 12px
+			& a
+				display block
+				width 132px
+				margin 0 auto
+				line-height 34px
+				background-color rgba(0,0,0,0.5)
+				border-radius 17px
+				color #fff
+.Mian.twoMian .In .Tit
+	background-image url("https://s.qunarzz.com/package_tuan/2016/20160622/pc/tit_02.jpg")
+.Mian.threeMian .In .Tit
+	background-image url("https://s.qunarzz.com/package_tuan/2016/20160622/pc/tit_04.jpg")
+	& .title1
+		padding-top 22px
+.Mian.threeMian .In .Tit2 , .Mian.threeMian .In .Inner , .Mian.threeMian .In .m-more
+	background-color #e2b800
+.Mian.threeMian .In .Tit2 .free-go
+	& a
+		background #f7e16e
+		border 1px solid #9b800b
+		color #a16a08
+	& a.cur
+		background #9b800b
+		color #fe0
+
+.Mian.fourMian, .Mian.fiveMian, .Mian.sixMian
+	background #6633da
+
+.Mian.fourMian .In .Tit
+	background-image url("https://s.qunarzz.com/package_tuan/2016/20160622/pc/tit_06.jpg")
+	& .title1
+		padding-top 22px
+.Mian.fourMian .In .Tit2 , .Mian.fourMian .In .Inner , .Mian.fourMian .In .m-more
+	background-color #ee9a50
+.Mian.fourMian .In .Tit2 .free-go
+	& a
+		background #fec27c
+		border 1px solid #e76026
+		color #e76026
+	& a.cur
+		background #e76026
+		color #f4e513
+
+
+
+.Mian.fiveMian .In .Tit
+	background-image url("https://s.qunarzz.com/package_tuan/2016/20160622/pc/tit_09.jpg")
+	& .title1
+		padding-top 22px
+.Mian.fiveMian .In .Tit2 , .Mian.fiveMian .In .Inner , .Mian.fiveMian .In .m-more
+	background-color #4677ce
+.Mian.sixMian .In .Tit
+	background-image url("https://s.qunarzz.com/package_tuan/2016/20160622/pc/tit_05.jpg")
+	& .title1
+		padding-top 22px
+.Mian.sixMian .In .Tit2 , .Mian.sixMian .In .Inner , .Mian.sixMian .In .m-more
+	background-color #4677ce
+.Mian.sixMian .In .Tit2 .free-go
+	& a
+		background #7bbdf7
+		border 1px solid #13459b
+		color #13459b
+		width  320px
+	& a:not(:first-of-type)
+		margin-left -1px
+	& a.cur
+		background #13459b
+		color #f4e513
+
+
+				
+							
