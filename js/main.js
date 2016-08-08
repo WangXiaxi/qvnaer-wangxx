@@ -1,8 +1,8 @@
 $.fn.extend({
 	mainInner :　function(data){
 		var data = data.data;
-		var data1,data2,data3,data4,data5,data6 = [];
-		data1 = data.slice(0,16)
+		var data1,data2,data3,data4,data5,data6;
+		data1 = data.slice(0,16);
 		data2 = data.slice(16,32);
 		data3 = data.slice(32,52);
 		data4 = data.slice(52,76);

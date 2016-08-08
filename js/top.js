@@ -14,8 +14,8 @@ $.fn.extend({
 		});
 	},
 	offSet :  function(){
-		var NavChoSco = function(eq,_this){
-				$(_this).find(".Nav-cho").find("a:nth-of-type("+eq+")").addClass("color").siblings().removeClass("color");
+		var NavChoSco = function(eq1,_this){
+				$(_this).find(".Nav-cho").find("a").eq(eq1).addClass("color").siblings().removeClass("color");
 			};
 		$(document).scroll(function(){
 			var $scTop =  $(window).scrollTop();

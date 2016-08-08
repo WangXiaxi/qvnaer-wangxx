@@ -558,7 +558,7 @@ text-overflow: ellipsis;
   color: #13459b;
   width: 320px;
 }
-.Mian.sixMian .In .Tit2 .free-go a:not(:first-of-type) {
+.Mian.sixMian .In .Tit2 .free-go a:not(:first-child) {
   margin-left: -1px;
 }
 .Mian.sixMian .In .Tit2 .free-go a.cur {
