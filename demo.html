@@ -18,7 +18,7 @@
 			<a>特价玩水</a>
 			<a>自由行</a>
 		</div>
-		<a href="#" class="gotop">
+		<a class="gotop">
 			<span class="txt">top</span>
 			<i class="i-icon"></i>
 		</a>
@@ -226,5 +226,15 @@
 	<script type="text/javascript" src="./js/data.js"></script>
 	<script type="text/javascript" src="./js/main.js"></script>
 	<script type="text/javascript" src="./js/top.js"></script>
+	<script>
+		function scoTop(){
+			$(".Nav a.gotop").click(function(){
+				$("html,body").animate({
+					scrollTop:0
+				},"slow");
+			});
+		}
+		scoTop();
+	</script>
 </body>
 </html>
